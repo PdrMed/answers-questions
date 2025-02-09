@@ -1,0 +1,500 @@
+{
+  "questions": [
+    {
+      "question": "Em cada camada, uma Unidade de Dados de Protocolo, ou PDU (Protocol Data Unit) possui campos de cabeçalho e um campo de carga útil.\nDentre as opções a seguir, qual é o nome do PDU da camada de enlace de dados?",
+      "answers": [
+        "Rótulo",
+        "Datagrama",
+        "Quadro",
+        "Mensagem",
+        "Segmento"
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "Em cada camada, uma Unidade de Dados de Protocolo, ou PDU (Protocol Data Unit) possui campos de cabeçalho e um campo de carga útil.\nDentre as opções a seguir, qual é o nome do PDU da camada de aplicação?",
+      "answers": [
+        "Segmento",
+        "Rótulo",
+        "Célula",
+        "Quadro",
+        "Mensagem"
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "Um sistema de comunicação é um conjunto de entidades (ou partes) coordenadas, que concorrem para a realização de um determinado objetivo - que, usualmente, dá nome ao sistema.\nQual é o termo relacionado à definição: ''Conjunto de módulos processadores interligados por um sistema de comunicação capazes de trocar informações e compartilhar recursos''?",
+      "answers": [
+        "Redes Isoladas",
+        "Redes de Computadores",
+        "Elementos desconexos",
+        "Fluxo de Dados",
+        "Unidade de processamento"
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Todas as atividades na Internet que envolvem duas ou mais entidades remotas que se comunicam são governadas por um elemento que define o formato e a ordem das mensagens trocadas entre duas ou mais entidades comunicantes, bem como as ações realizadas na transmissão e/ou no recebimento de uma mensagem ou outro evento.\nO nome desse elemento é:",
+      "answers": [
+        "Encapsulamento",
+        "Link",
+        "Interface",
+        "Protocolo",
+        "Serviço"
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "A radiação eletromagnética consiste em ondas do campo eletromagnético, que se propagam pelo espaço e carregam energia eletromagnética radiante. A luz visível que vem de uma lâmpada em sua casa e as ondas de rádio que vêm de uma estação de rádio são dois tipos de radiação eletromagnética\nÉ um exemplo de onda eletromagnética utilizada em redes não-guiadas?",
+      "answers": [
+        "Fibra ótica",
+        "Micro-ondas",
+        "Cabo USB",
+        "Cabo de par trançado",
+        "Cabo coaxial"
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Protocolo é o conjunto de regras sobre o modo como se dará a comunicação entre as partes envolvidas.\nOs protocolos definem:\nI. Formato.\nII. Ordem de mensagens enviadas e recebidas entre as entidades de rede.\nIII. Ações tomadas sobre transmissão e recepção de mensagens.\nMarque a alternativa que possui todas as capacidades corretas:",
+      "answers": [
+        "I, III",
+        "III",
+        "I",
+        "II, III",
+        "I, II, III"
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "As sete camadas do modelo de referência OSI são: de aplicação, de apresentação, de sessão, de transporte, de rede, de enlace e camada física.\nQual das seguintes camadas da arquitetura de redes em camadas OSI possui a seguinte função:\n''Determinar o roteamento (caminho) dos pacotes da origem até o destino''.",
+      "answers": [
+        "Enlace",
+        "Física",
+        "Transporte",
+        "Aplicação",
+        "Rede"
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "Na literatura, as redes de computadores podem ser classificadas de várias formas, sempre com base em fundamentos confiáveis e validados.\nNa literatura formal, são elementos para a classificação de redes de computadores:\nI. Critérios relativos/subjetivos.\nII. Meio de transmissão.\nIII. Arquitetura de Rede.\nIV. Meio de transmissão.\nMarque a alternativa que possui todas os elementos corretos:",
+      "answers": [
+        "II, III",
+        "II, III, IV",
+        "III, IV",
+        "I, II, III, IV",
+        "I, II, III"
+      ],
+      "correctanswer": 2
+    },
+    {
+      "question": "A camada de transporte carrega mensagens da camada de aplicação entre os lados do cliente e servidor de uma aplicação. Há dois protocolos de transporte na Internet: TCP e UDP.\nSão serviços oferecidos pelo protocolo TCP:\nI. Transferência de dados confiável.\nII. Serviço não orientado a conexão.\nIII. Fragmentação em segmentos.\nMarque a alternativa que possui todas os serviços corretos:",
+      "answers": [
+        "II",
+        "I, III",
+        "II, III",
+        "I, II, III",
+        "I"
+      ],
+      "correctanswer": 2
+    },
+    {
+      "question": "O conhecido sistema .edu, .gov, .com, .mil, .org, .net e .int para nomear sites é mais fácil de lembrar do que a designação anterior para sites, como o endereço IP 123.456.789.10.\nDentre as opções a seguir, qual é o nome do sistema que converte nomes de domínio legíveis por humanos (por exemplo, www.amazon.com) em endereços IP legíveis por máquina (por exemplo, 192.0.2.44)?",
+      "answers": [
+        "Telnet",
+        "SMTP",
+        "POP",
+        "FTP",
+        "DNS"
+      ],
+      "correctanswer": 5
+    },
+	
+	 {
+      "question": "A arquitetura TCP/IP tem bem definidos protocolos que são utilizados nas quatro camadas do modelo. São exemplos de protocolos da camada de aplicação, transporte e internet, respectivamente:",
+      "answers": [
+        "IP, TCP e http.",
+        "Todas as alternativas estão incorretas.",
+        "SMTP, IP e TCP.",
+        "FTP, UDP e http.",
+        "http, UDP e IP."
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "A divisão em camadas permitiu o isolamento de funções, sendo cada camada responsável por determinadas funcionalidades. O modelo OSI pode ser considerado o pai dessa ideia e, na sua padronização, definiu que:",
+      "answers": [
+        "A camada de sessão é responsável por encaminhar os dados de um nó para o nó vizinho.",
+        "A camada física é responsável por realizar o controle de erro entre nós vizinhos.",
+        "A camada de enlace é responsável por garantir o encaminhamento dos dados da origem até o destino.",
+        "A camada de apresentação é responsável por garantir a interoperabilidade dos sistemas.",
+        "Todas as alternativas estão incorretas."
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "As redes de computadores são estruturadas utilizando o conceito de camadas, com o objetivo de facilitar a manutenção e evolução dos serviços de redes. Acerca do conceito de camadas de rede podemos dizer que:",
+      "answers": [
+        "Tornou o problema de transmissão de dados mais complexo do que se fosse desenvolvido em uma camada única.",
+        "Todas as alternativas estão incorretas.",
+        "Permitiu a diminuição no volume de dados a ser transmitido pelo meio de comunicação.",
+        "Uma camada utiliza o serviço da camada superior e oferece para a camada inferior.",
+        "Uma camada utiliza o serviço da camada inferior e oferece para a camada superior."
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "O processo de encapsulamento permite que cada camada possa abstrair do conteúdo recebido pelas camadas superiores, garantindo o isolamento das informações. O processo do encapsulamento ocorre quando:",
+      "answers": [
+        "Todas as alternativas estão incorretas.",
+        "Uma camada recebe as informações da camada inferior, por meio do serviço, adicionando o cabeçalho da própria camada.",
+        "A camada superior envia, por meio do protocolo, os dados para a mesma camada de outro dispositivo.",
+        "Pela interface, uma camada recebe dados da camada imediatamente inferior e adiciona o cabeçalho da própria camada.",
+        "A camada inferior recebe, pela interface, os dados da camada superior, adicionando o próprio cabeçalho."
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "As camadas do modelo OSI têm seus serviços definidos, elas sabem o que devem fazer, entretanto, não estão definidos protocolos, ou o como fazer. A camada que é responsável por garantir a comunicação confiável entre processos é a:",
+      "answers": [
+        "Transporte.",
+        "Sessão.",
+        "Rede.",
+        "Enlace.",
+        "Todas as alternativas estão incorretas."
+      ],
+      "correctanswer": 1
+    },
+	{
+      "question": "Sobre o correio eletrônico, marque a alternativa correta.",
+      "answers": [
+        "Cada destinatário de correio eletrônico possui uma caixa postal no servidor, em que suas mensagens são armazenadas.",
+        "Podem transportar mensagens multimídia sem a necessidade de codificação para envio.",
+        "O correio eletrônico está se tornando obsoleto em favor de tecnologias com o metaverso.",
+        "Se o destinatário estiver on-line no momento da entrega, a mensagem não passará pela caixa postal.",
+        "Utiliza o mesmo protocolo tanto para o envio quanto para a recepção das mensagens."
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Com base na interação entre o browser e o servidor web, marque a alternativa correta:",
+      "answers": [
+        "O protocolo utilizado para a transferência de páginas web entre browser e servidor é o DNS.",
+        "Servidores web atendem tipicamente na porta 80.",
+        "O protocolo www é utilizado como forma de acessar páginas da web.",
+        "A arquitetura do software de acesso à web é um exemplo de arquitetura peer-to-peer.",
+        "Servidores web são softwares que executam na camada de transporte do modelo OSI."
+      ],
+      "correctanswer": 2
+    },
+    {
+      "question": "Quanto ao processo de multiplexação, marque a alternativa correta.",
+      "answers": [
+        "A multiplexação ocorre no nível físico, sendo essencial para a comunicação entre camadas.",
+        "A multiplexação ocorre somente em protocolos orientados à conexão, como o TCP.",
+        "A multiplexação ocorre somente em protocolos sem conexão, como o UDP.",
+        "Se o protocolo IP for utilizado, não será necessária a multiplexação na camada de transporte.",
+        "Os protocolos de transporte da internet utilizam números de porta para realizar a multiplexação."
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "Marque a alternativa que apresenta uma função dos números de porta incluídos nos segmentos TCP e UDP.",
+      "answers": [
+        "Identificar o default gateway.",
+        "Identificar aplicações em um mesmo host permitindo que os dados sejam encaminhados à aplicação correta.",
+        "Permitir que o host ordene os pacotes corretamente.",
+        "Identificar se o protocolo da camada de transporte é TCP ou UDP.",
+        "Realizar o controle de fluxo."
+      ],
+      "correctanswer": 2
+    },
+    {
+      "question": "O protocolo UDP apresenta um cabeçalho extremamente simples utilizado precipuamente por aplicações como DNS, SNMP e TFTP. Acerca das características do protocolo UDP, marque a alternativa correta:",
+      "answers": [
+        "Realiza retransmissões para garantir a entrega de dados.",
+        "Trata-se de um protocolo de nível de enlace.",
+        "Não estabelece conexões para troca de dados.",
+        "Utilizado por aplicações que requerem uma comunicação confiável, com a garantia da entrega de todos os pacotes.",
+        "Responsável pela ordenação dos bits na camada física."
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "O correio eletrônico, também conhecido como e-mail, é um serviço de comunicação baseado em tecnologia de rede que permite a troca de mensagens eletrônicas entre usuários conectados à Internet. O e-mail revolucionou a forma como as pessoas se comunicam, possibilitando o envio de mensagens instantâneas e a comunicação em tempo real em qualquer lugar do mundo, independentemente da distância geográfica. Considerando protocolos de rede, assinale a alternativa correspondente ao protocolo utilizado exclusivamente para correio eletrônico.",
+      "answers": [
+        "HTTPS.",
+        "SNMP.",
+        "HTTP.",
+        "IMAP.",
+        "FTP."
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "A camada de aplicação é a camada mais alta do modelo de referência TCP/IP e é responsável por fornecer serviços para os aplicativos que rodam em dispositivos conectados à rede. Ela permite que diferentes aplicativos se comuniquem de forma eficiente e padronizada, independentemente do sistema operacional, plataforma ou hardware utilizados. Dentro desse contexto, qual é o protocolo que faz o mapeamento de endereço URL para endereço IP?",
+      "answers": [
+        "ARP.",
+        "Stringle.",
+        "DNS.",
+        "RIP.",
+        "IP."
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "Sua camada de transporte possui extrema importância na comunicação entre dois equipamentos. O fluxo nessa camada somente se comunica com o seu fluxo par do dispositivo destino. Lida com questões de \"QoS\", controle de fluxo, controle de sequência e correção de erros.",
+      "answers": [
+        "Sua camada de transporte possui extrema importância na comunicação entre dois equipamentos. O fluxo nessa camada somente se comunica com o seu fluxo par do dispositivo destino. Lida com questões de \"QoS\", controle de fluxo, controle de sequência e correção de erros.",
+        "Na camada de transporte, além do protocolo TCP, há também o protocolo UDP que em função de sua orientação à conexão possui a capacidade de controlar altos volumes de tráfego na Internet, o que proporciona aos seus usuários uma maior performance no envio e recebimento de dados.",
+        "Em função de ser um protocolo orientado à conexão, os pacotes TCP não necessitam do uso de bits adicionais para assegurar o correto sequenciamento da informação, bem como um \"checksum\" obrigatório para garantir a integridade do cabeçalho e dos dados transmitidos.",
+        "Protocolos de mais alto nível, como HTTP e SMTP, incluem os detalhes necessários à camada de aplicação e apresentação, enquanto que os protocolos de baixo nível, como DNS; FTP e POP, são responsáveis pelas indicações de fluxo de dados nas camadas de sessão e internet.",
+        "O \"controle de erros\" observado na camada de transporte tem como objetivo detectar e corrigir erros gerados pelas camadas de apresentação e sessão, se preocupando com erros relacionados à integridade do conteúdo do pacote recebido, à entrega duplicada ou a pacotes recebidos fora da sequência."
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "A camada de transporte da Internet fornece serviços de comunicação confiável e orientada à conexão para os processos de aplicação. Ela é responsável por receber os dados dos processos aplicativos e encapsulá-los em segmentos para serem transmitidos pela rede. A multiplexação de portas é um serviço provido pela camada de transporte que permite que vários processos de aplicação se comuniquem usando a mesma conexão de rede. Cada processo de aplicação é identificado por um número de porta, que é usado pelo protocolo de transporte para distinguir as diferentes conexões estabelecidas em um mesmo hospedeiro. O processo de demultiplexação é responsável por identificar o processo de aplicação de destino e entregar os dados recebidos pela rede ao processo correspondente na camada de aplicação.",
+      "answers": [
+        "Particionar datagramas com tamanhos superiores à MTU do enlace antes de sua transmissão.",
+        "Receber os dados dos processos aplicativos, encapsulá-los em segmentos e encaminhá-los para a camada de redes.",
+        "Evitar que o hospedeiro transmita em taxa superior à capacidade do receptor.",
+        "Garantir a escalabilidade das aplicações na arquitetura par-a-par.",
+        "Fornecer mecanismo de detecção e correção de erros na transmissão."
+      ],
+      "correctanswer": 2
+    },
+    {
+      "question": "A pilha de protocolos TCP/IP é um conjunto de protocolos de rede que define um modelo de comunicação para a internet. Qual a camada da pilha de protocolos TCP/IP que utiliza multiplexação e demultiplexação de portas?",
+      "answers": [
+        "IP.",
+        "Rede.",
+        "Aplicação.",
+        "Transporte.",
+        "Enlace."
+      ],
+      "correctanswer": 4
+    },
+	{
+      "question": "Um arquivo que contém um script Python, tipicamente, possui a extensão:",
+      "answers": [
+        ".xml",
+        ".phy",
+        ".c",
+        ".py",
+        ".jar"
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "Dentre as opções a seguir, o número de porta que corresponde ao intervalo de portas bem conhecidas é:",
+      "answers": [
+        "355",
+        "35555",
+        "355555",
+        "3555",
+        "3553"
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Dentre as opções a seguir, o número de porta que corresponde ao intervalo de portas gratuitas é:",
+      "answers": [
+        "50008",
+        "1",
+        "9574",
+        "490",
+        "40122"
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Dentre as opções a seguir, marque aquela na qual possui um recurso que faz parte do Python:",
+      "answers": [
+        "É exclusivamente uma API para utilização de sockets.",
+        "É uma linguagem de programação interpretada.",
+        "É apenas uma interface gráfica para ser usada nas redes de computadores.",
+        "É uma linguagem utilizada somente para a construção de páginas web.",
+        "É uma linguagem de programação paga (requer a compra de uma licença de uso)."
+      ],
+      "correctanswer": 2
+    },
+    {
+      "question": "A camada do TCP/IP que permite que os dispositivos nos hosts de origem e de destino mantenham uma conversação é a",
+      "answers": [
+        "De enlace.",
+        "De seção de rede.",
+        "De transporte.",
+        "Inter-redes.",
+        "De aplicação."
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "Qual é o maior comprimento possível de um datagrama UDP?",
+      "answers": [
+        "65.535 bytes.",
+        "16.383 bytes.",
+        "32.767 bytes.",
+        "8.191 bytes.",
+        "4.095 bytes."
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Marque a alternativa que possui a primitiva responsável por 'anunciar a disposição para aceitar conexões; mostra o tamanho da fila':",
+      "answers": [
+        "RECEIVE",
+        "CONNECT",
+        "BIND",
+        "LISTEN",
+        "ACCEPT"
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "Na programação TCP é possível ao servidor saber o endereço do cliente ao qual um soquete conectado está vinculado, executando um método a qualquer momento.",
+      "answers": [
+        "getcliinfo()",
+        "servermethod()",
+        "getclient()",
+        "getpeername()",
+        "getaddr()"
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "Em uma comunicação em rede, é necessário utilizar diferentes tipos de endereços dependendo da camada. Na camada de enlace de dados, utiliza-se o endereço MAC, enquanto a camada de rede utiliza o endereço IP. Qual é o mecanismo de endereçamento equivalente da camada transporte?",
+      "answers": [
+        "Porta",
+        "Segmento",
+        "Cabeçalho",
+        "Número de sequência",
+        "Janela deslizante"
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Na programação de um socket TCP em codificação de alto nível, a finalidade da opção SO_REUSEADDR no servidor é:",
+      "answers": [
+        "Permitir que um socket seja vinculado à força a uma porta em uso por outro socket.",
+        "Possibilitar ao socket TCP ter o mesmo comportamento do socket UDP.",
+        "Reutilizar o mesmo endereço IP utilizado pelo cliente.",
+        "Retirar a dependência do código ao Sistema Operacional.",
+        "Reiniciar todos os endereços vigentes no momento da conexão."
+      ],
+      "correctanswer": 1
+    },
+	{
+      "question": "Com o avanço das tecnologias, ocorreu o surgimento de diversas plataformas e ambientes de desenvolvimento, bem como necessidades intrínsecas à heterogeneidade atual. Ao adotar o formato JSON, um servidor REST busca garantir qual fator relevante para as novas plataformas?",
+      "answers": [
+        "Responsividade",
+        "Reflexividade",
+        "Usabilidade",
+        "Jogabilidade",
+        "Interoperabilidade"
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "Quando trabalhamos com ambientes interoperáveis, uma necessidade básica é a definição de um padrão aberto para a descrição dos serviços que serão expostos para outras plataformas. Para os Web Services do tipo SOAP, qual foi o padrão definido?",
+      "answers": [
+        "WSDL",
+        "WADL",
+        "UDDI",
+        "OMG-IDL",
+        "IDL"
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "O banco de dados PostgreSQL é amplamente utilizado no mercado de desenvolvimento, pois apresenta ótimas características como repositório de dados. Entre as opções apresentadas, qual delas define corretamente uma característica do banco de dados PostgreSQL?",
+      "answers": [
+        "Segue o modelo NoSQL documental, com armazenamento no formato JSON.",
+        "Permite apenas uma instância de banco por servidor.",
+        "Oferece uma ferramenta gráfica de administração denominada pgAdmin.",
+        "Segue o modelo NoSQL baseado em grafos.",
+        "Não oferece suporte a transações, sendo gerados apenas logs de execução."
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "Ao contrário dos Web Services, que apenas fornecem dados, a partir da exposição de serviços, sem a definição de uma interface de usuário, nos aplicativos Web temos o retorno de conteúdo HTML para cada requisição efetuada, permitindo a interação com o usuário através de um navegador, como Chrome ou Edge. No caso do Django, podemos tratar a requisição através de uma função Python, direcionando os resultados para um template HTML, como no trecho de código apresentado a seguir. Qual a informação correta acerca da função apresentada?",
+      "answers": [
+        "Os dados serão enviados para um template com o nome index.html, no diretório templates, através de um dicionário que é associado ao parâmetro context.",
+        "O parâmetro request é opcional, colocado aqui apenas para facilitar o entendimento.",
+        "Para que seja criado o conteúdo HTML de saída, é utilizado um cliente zeep, apontando para o descritor de um serviço.",
+        "Não é necessário mapear a rota, sendo assumido o nome da função de forma automática.",
+        "Para os dados obtidos do Web Service SOAP via cliente zeep, será necessário utilizar um parser XML ao nível do template HTML."
+      ],
+      "correctanswer": 1
+    },
+    {
+      "question": "Suponha uma classe DAO, implementada em Python, com acesso ao banco de dados através do SQL Alchemy, onde as entidades utilizam o modelo declarativo do framework. Ao construir um Web Service RESTful, com base no Flask, quais seriam os passos de codificação necessários para definir um processo de inclusão via HTTP?",
+      "answers": [
+        "Definir uma função tendo a entidade como parâmetro, anotada para uma rota parametrizada, via app.route, com base no método POST do HTTP; transformar para o formato JSON via função jsonify; e invocar o método de inclusão do DAO, com a passagem dos dados no formato JSON.",
+        "Definir uma função tendo a entidade como parâmetro, anotada para uma rota parametrizada, via app.route, com base no método PUT do HTTP; e invocar o método de inclusão do DAO, com a passagem da entidade obtida a partir da rota.",
+        "Definir uma função sem parâmetros, anotada para a rota de base, via app.route; obter uma entidade no atributo content de requests.get; transformar para o formato JSON via jsonify; e invocar o método de inclusão do DAO, com a passagem dos dados no formato JSON.",
+        "Definir uma função sem parâmetros, anotada para a rota de base, via app.route, com base no método POST; obter os dados, com request.get_json; instanciar a entidade com os dados JSON obtidos; e invocar o método de inclusão do DAO com a passagem da entidade.",
+        "Definir uma função sem parâmetros, anotada para a rota de base, via app.route; obter uma entidade com json.loads; e invocar o método de inclusão do DAO com a passagem da entidade."
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "Ao trabalharmos no ambiente Python, qual biblioteca permite a definição de Web Services do tipo SOAP, entre outros serviços no estilo RPC, de forma simples, com base em um pequeno conjunto de anotações e seguindo o paradigma orientado a objetos?",
+      "answers": [
+        "lxml",
+        "django",
+        "pandas",
+        "spyne",
+        "zeep"
+      ],
+      "correctanswer": 4
+    },
+    {
+      "question": "Em comparação com a abordagem tradicional de desenvolvimento, com todos os módulos e funcionalidades em um bloco único, a abordagem baseada em microsserviços prega que as aplicações sejam desmembradas em componentes mínimos e independentes, os quais precisam trabalhar juntos para realizar tarefas. Existem múltiplas vantagens nessa nova abordagem, mas ______________________ NÂO É uma delas. Qual opção completa corretamente a lacuna?",
+      "answers": [
+        "Grande Escalabilidade",
+        "Alta Disponibilidade",
+        "Garantia de Responsividade",
+        "Maior facilidade na criação de Testes Unitários",
+        "Compartilhamento de Funções e Processos entre várias Aplicações"
+      ],
+      "correctanswer": 3
+    },
+    {
+      "question": "Um sistema de boa complexidade, na área financeira, é composto de módulos CORBA, criados em C++, módulos EJB, da plataforma Java, com acesso ao banco de dados DB2, e interfaces gráficas criadas em Delphi. Os serviços são expostos e consumidos no formato SOAP, além de orquestrados na sintaxe BPEL. No caso descrito, qual arquitetura estaria sendo adotada?",
+      "answers": [
+        "Broker",
+        "PAC",
+        "Pipeline",
+        "MVC",
+        "SOA"
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "Um sistema está sendo construído para as lojas XPTO, e será necessária uma funcionalidade de busca de lojas por estado, a partir de um recurso visual de seleção. Como os clientes podem acessar o sistema a partir de ambientes móveis ou via Web, o engenheiro de software exige que os dados sejam fornecidos via Web Service RESTful. Qual seria uma assinatura adequada, em Python, para o fornecimento das lojas a partir da UF, obedecendo o padrão REST?",
+      "answers": [
+        "não disponível",
+        "não disponível",
+        "não disponível",
+        "não disponível",
+        "não disponível"
+      ],
+      "correctanswer": 5
+    },
+    {
+      "question": "A biblioteca zeep permite criar clientes SOAP de forma extremamente simples no Python, com grande ganho de produtividade. Considerando as opções seguintes, qual a informação correta acerca dos clientes construídos com zeep?",
+      "answers": [
+        "Os stubs são gerados com a passagem do endereço do WSDL no construtor do cliente.",
+        "É necessário especificar uma biblioteca de validação XML, como o lxml.",
+        "O resultado de uma chamada deve ser interpretado por um parser XML.",
+        "Precisa ser hospedado em um servidor Web, como aqueles criados com Django.",
+        "Obriga a definição dos envelopes SOAP em variáveis de texto do Python."
+      ],
+      "correctanswer": 1
+    }
+  ]
+}
